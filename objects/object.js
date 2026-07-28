@@ -45,3 +45,22 @@ Object.assign(teacher,student);
 console.log(teacher.age);
 console.log(teacher);
 
+
+// creating object using constructor function 
+function Person(name, age, city){
+    this.name = name;
+    this.age = age;
+    this.city = city;
+}
+
+let p = new Person("Abhi", 22, "Colombo");
+console.log(p);
+
+
+// creating object using new object()
+let person = new Object();
+person.name = "Abhi";
+person.city = "Colomnbo";
+
+console.log(person);
+
